@@ -6,7 +6,7 @@ import styles from "./banner.module.css";
 
 function Banner() {
   //check the connection of urls and my api
-  //console.log(requests.fetchNetflixOriginal);
+  console.log(requests.fetchNetflixOriginal);
  
 
   return (
