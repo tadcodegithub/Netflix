@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  /* background-color: black; */
   height: 10vh;
   color: white;
   transition: all 0.5s;
