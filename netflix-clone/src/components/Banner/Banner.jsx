@@ -17,7 +17,7 @@ function Banner() {
       setMovies(response.data.results);
     }
     getmovies();
-  },[]);
+  }, []);
 
   return (
     <>
@@ -32,5 +32,3 @@ function Banner() {
 }
 
 export default Banner;
-
-// :
