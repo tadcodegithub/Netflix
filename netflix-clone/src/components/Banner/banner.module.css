@@ -1,0 +1,125 @@
+.Banner_img {
+  margin-top: 8vh;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  z-index: 8;
+  background-position: center;
+}
+.banner_content {
+  margin-left: 30px;
+  margin-top: 16vh;
+}
+.banner_title {
+  margin-left: 30px;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  margin-top: 100px;
+}
+.banner_des {
+  display: none;
+  width: 45rem;
+  line-height: 1;
+  padding: 1rem 0;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.btns button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.5vw;
+  padding: 0.5rem 1.8rem;
+  margin-right: 2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  margin-top: 15px;
+}
+.btns button:hover {
+  color: #000;
+  background-color: #c6c6c6;
+  transition: all 0.2s;
+}
+.banner_content {
+  margin-left: 50px;
+  padding-top: 165px;
+}
+
+.banner_des {
+  width: 40vw;
+  margin-top: 15px;
+}
+
+@media (min-width: 462px) {
+  .banner_des {
+    display: block;
+    width: 45rem;
+    line-height: 1;
+    padding: 1rem 0;
+    font-size: 1rem;
+    max-width: 360px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .Banner_img {
+    background-position: top;
+  }
+
+  .banner_fade {
+    height: 46vh;
+    margin-top: -38vh;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.91),
+      #111
+    );
+  }
+}
+.banner_fade {
+  position: absolute;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+  height: 50vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.91),
+    #111
+  );
+  z-index: 0;
+}
+
+.Banner_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  padding: 20px;
+}
+
+.banner_content {
+  padding-top: 50px; /* Reduced padding to move content higher */
+  position: relative;
+  z-index: 2; /* Ensure it stays above the fade */
+}
+
+.banner_fade {
+  bottom: 0; 
+}
+@media (max-height: 555px) and (min-width: 462px) {
+  .banner_des {
+    display: none;
+  }
+  .banner_content {
+    margin-top: 25vh;
+  }
+}
