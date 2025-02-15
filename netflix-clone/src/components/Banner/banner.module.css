@@ -1,6 +1,6 @@
 .Banner_img {
-     margin-top: 8vh;
-    height: 70vh;
+  margin-top: 8vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -71,7 +71,7 @@
   .Banner_img {
     background-position: top;
   }
-  
+
   .banner_fade {
     height: 46vh;
     margin-top: -38vh;
@@ -98,15 +98,6 @@
   );
   z-index: 0;
 }
-/* 
- bottom: 100px;
-  left: 0;
-   height: 40vh;
-   bottom: 100px;
-  
-   height: 40vh;
-    margin-top: -29vh; 
-    */
 
 .Banner_img {
   display: flex;
@@ -124,12 +115,11 @@
 .banner_fade {
   bottom: 0; /* Keep it at the bottom */
 }
-@media (max-height: 555px) and  (min-width: 462px) {
- .banner_des {
-   display: none;
+@media (max-height: 555px) and (min-width: 462px) {
+  .banner_des {
+    display: none;
   }
-  .banner_content{
+  .banner_content {
     margin-top: 25vh;
   }
-
 }
