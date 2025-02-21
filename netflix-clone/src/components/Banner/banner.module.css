@@ -113,7 +113,7 @@
 }
 
 .banner_fade {
-  bottom: 0; 
+  bottom: 0;
 }
 @media (max-height: 555px) and (min-width: 462px) {
   .banner_des {
